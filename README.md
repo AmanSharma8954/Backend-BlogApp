@@ -13,7 +13,7 @@ This project involves implementing the following tasks:
 - Endpoint: ```http://localhost:4000/api/v1/posts/create```
 - Method: POST
 - Request Body: JSON
-```
+```json
   {
       "title": "Dummy Post2",
       "body": "Dummy Post1"
@@ -30,7 +30,7 @@ This project involves implementing the following tasks:
 - Endpoint: ```http://localhost:4000/api/v1/comments/create```
 - Method: POST
 - Request Body: JSON
-```
+```json
 {
     "post": "6429343f2b912f721b9c50b8",
     "user": "Lakshyadeep",
@@ -42,7 +42,7 @@ This project involves implementing the following tasks:
 - Endpoint: ```http://localhost:4000/api/v1/likes/like```
 - Method: POST
 - Request Body: JSON
-```
+```json
 {
     "post": "6429343f2b912f721b9c50b8",
     "user": "Lakshyadeep"
@@ -53,7 +53,7 @@ This project involves implementing the following tasks:
 - Endpoint: ```http://localhost:4000/api/v1/likes/unlike```
 - Method: POST
 - Request Body: JSON
-```
+```json
 {
     "post": "6429343f2b912f721b9c50b8",
     "like": "64293e833d3611dfcad7a664"
