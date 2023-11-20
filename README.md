@@ -4,6 +4,13 @@
 
 This is the backend implementation for a modern blog platform where users can create, like, and comment on blog posts and user-generated content.
 
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- RESTful API
+
 ## Tasks
 
 This project involves implementing the following tasks:
