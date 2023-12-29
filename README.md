@@ -11,6 +11,15 @@ This is the backend implementation for a modern blog platform where users can cr
 - MongoDB
 - RESTful API
 
+## How to Start
+```
+  git clone git@github.com:AmanSharma8954/Backend-BlogApp.git
+
+  npm i
+
+  npm run dev
+```
+
 ## Tasks
 
 This project involves implementing the following tasks:
